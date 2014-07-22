@@ -22,7 +22,7 @@ end
 
 # Define zabbix_agentd service
 service "zabbix_agentd" do
-  supports :status => true, :start => true, :stop => true, :restart => true
+  supports :status => true, :restart => true
   action [ :enable ]
 end
 
